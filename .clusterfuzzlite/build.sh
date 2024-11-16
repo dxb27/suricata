@@ -3,7 +3,7 @@
 cd $SRC/
 # build dependencies statically
 if [ "$SANITIZER" = "memory" ]
-then
+thenA
     (
     cd zlib
     ./configure --static
